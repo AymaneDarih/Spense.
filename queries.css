@@ -1,0 +1,214 @@
+@media (max-width:24em) {
+    html {
+        font-size: 48%;
+        overflow-x: hidden;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .p-head-content {
+        letter-spacing: 1.95px;
+        margin: 0 auto;
+        padding: 1.8rem 1rem;
+
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .hero {
+        grid-template-columns: 1fr;
+
+    }
+
+    .hero-right {
+        text-align: center;
+        grid-row: 1;
+    }
+
+    .hero-img {
+        width: 90%;
+    }
+
+    .hero-left {
+        padding: 1rem 3rem;
+    }
+
+    .hero-head {
+        font-size: 3.9rem;
+    }
+
+    footer {
+        padding: 5rem 3rem;
+    }
+
+    .f-container {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 5rem;
+    }
+
+    .about {
+        grid-column: 1/3;
+    }
+
+    .sitemap {
+        grid-row: 3;
+    }
+
+    .company {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .editor-content {
+        grid-template-columns: 1fr;
+    }
+
+    .editor.content {
+        grid-row: 1;
+        padding: 0 4rem;
+
+    }
+
+    .editor-p {
+        width: 105%;
+        letter-spacing: 0.5px;
+    }
+
+    .opportunities {
+        grid-row: 2;
+    }
+
+    .tech-logo {
+        padding: 5rem 0 0;
+    }
+
+
+
+    .brand-content {
+        flex-direction: column;
+        padding: 5rem 7rem 33rem;
+    }
+
+    .b-left,
+    .b-left-head,
+    .b-left-p {
+        width: 100%;
+    }
+
+    .b-right img {
+        width: 91rem;
+        transform: translate(-75%, 1.9%);
+    }
+
+}
+
+@media (max-width:27em) {
+    html {
+        font-size: 48%;
+        overflow-x: hidden;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .p-head-content {
+        letter-spacing: 1.95px;
+        margin: 0 auto;
+        padding: 1.8rem 1rem;
+
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .hero {
+        grid-template-columns: 1fr;
+
+    }
+
+    .hero-right {
+        text-align: center;
+        grid-row: 1;
+    }
+
+    .hero-img {
+        width: 90%;
+    }
+
+    .hero-left {
+        padding: 1rem 3rem;
+    }
+
+    .hero-head {
+        font-size: 3.9rem;
+    }
+
+    footer {
+        padding: 5rem 3rem;
+    }
+
+    .f-container {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 5rem;
+    }
+
+    .about {
+        grid-column: 1/3;
+    }
+
+    .sitemap {
+        grid-row: 3;
+    }
+
+    .company {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .editor-content {
+        grid-template-columns: 1fr;
+    }
+
+    .editor.content {
+        grid-row: 1;
+        padding: 0 4rem;
+
+    }
+
+    .editor-p {
+        width: 105%;
+        letter-spacing: 0.5px;
+    }
+
+    .opportunities {
+        grid-row: 2;
+    }
+
+    .tech-logo {
+        padding: 5rem 0 0;
+    }
+
+
+
+    .brand-content {
+        flex-direction: column;
+        padding: 5rem 7rem 33rem;
+    }
+
+    .b-left,
+    .b-left-head,
+    .b-left-p {
+        width: 100%;
+    }
+
+    .b-right img {
+        width: 91rem;
+        transform: translate(-75%, 1.9%);
+    }
+}

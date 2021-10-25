@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.6rem;
+    color: #343a40;
+}
+
+.p-head {
+    background-color: #222;
+    font-size: 1.35rem;
+    color: #f8f9fa;
+    text-align: center;
+    margin-top: -0.2rem;
+}
+
+.p-head-content {
+    letter-spacing: 0.75px;
+    margin: 0 auto;
+    padding: 0.8rem 0;
+}
+
+.home {
+    background-color: #f8ecec;
+    padding: 5rem 0 0rem;
+
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 130rem;
+    /* position: relative; */
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.brand {
+    font-size: 2.6rem;
+    text-decoration: none;
+    font-weight: 700;
+    font-weight: bolder;
+    color: #212529;
+    cursor: pointer;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3rem;
+    margin-right: -38rem;
+}
+
+.nav-menu li {
+    list-style: none;
+
+}
+
+.nav-items {
+    color: #212529;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+}
+
+.nav-items:hover {
+    transition: all 1s;
+    text-decoration: underline;
+    color: #495057;
+}
+
+.button {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 1.6rem 2.2rem;
+    border-radius: 0.4rem;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #212529;
+    transition: all 0.6s;
+    border: black 1px solid;
+}
+
+.heros {
+    background-color: #f8ecec;
+}
+
+.hero {
+    max-width: 130rem;
+    margin: 0rem auto;
+    padding: 5rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+
+}
+
+.hero-right {
+    text-align: end;
+}
+
+.hero-img {
+    width: 70%;
+}
+
+
+
+.hero-head {
+    font-size: 5.5rem;
+    font-weight: 700;
+    color: #212529;
+    margin: 3rem 0;
+    letter-spacing: 0.5px;
+
+}
+
+.hero-p {
+    font-size: 1.7rem;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+    margin: 2rem 0;
+    opacity: 90%;
+}
+
+.li-offres {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.inputs {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin: 2.5rem 0;
+}
+
+.email {
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 1.5rem 0.2rem;
+    border-radius: 0.4rem;
+    border: rgb(136, 136, 131) solid 0.5px;
+    outline: 0.5px rgb(136, 136, 131) solid;
+
+}
+
+.tech-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem 0;
+
+}
+
+.tech-logo img {
+    width: 11%;
+    height: auto;
+}
+
+.brand-content {
+    display: flex;
+    align-items: center;
+    padding: 9rem 9rem 9rem 9rem;
+    margin-top: 5rem;
+
+}
+
+.container.content {
+    background-color: #f8ecec;
+    border-radius: 0.8rem;
+    margin-bottom: 7rem;
+}
+
+.b-left {
+    width: 50%;
+}
+
+.b-right {
+    text-align: end;
+    position: relative;
+
+}
+
+.b-right img {
+    position: absolute;
+    transform: translate(-48%, -49.5%);
+    width: 125rem;
+    height: auto;
+    top: 0;
+
+}
+
+.b-left-head {
+    font-size: 3.6rem;
+    letter-spacing: 00.75px;
+    width: 60%;
+    margin: 2.2rem 0;
+    color: black;
+}
+
+.b-left-p {
+    width: 90%;
+    line-height: 1.6;
+    opacity: 90%;
+    margin: 2.6rem 0;
+    letter-spacing: 00.75px;
+    font-size: 1.8rem;
+}
+
+.more {
+    color: rgb(178, 150, 81);
+    margin: 0 0 2rem 0;
+
+}
+
+.editor-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    align-items: center;
+}
+
+.editor-img img {
+    width: 100%;
+}
+
+.container.editor {
+    margin-bottom: 3rem;
+}
+
+.editor-head {
+    font-size: 3.6rem;
+    letter-spacing: 00.75px;
+    margin: 2.2rem 0;
+    color: black;
+}
+
+.editor-p {
+    width: 80%;
+    line-height: 1.6;
+    opacity: 90%;
+    margin: 2.6rem 0;
+    letter-spacing: 00.75px;
+    font-size: 1.8rem;
+}
+
+.demo {
+    color: rgb(178, 150, 81);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 5rem;
+}
+
+.f-container {
+    max-width: 130rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    gap: 3rem;
+}
+
+.about-p {
+    line-height: 1.6;
+    opacity: 70%;
+    width: 82%;
+}
+
+h3 {
+    margin-bottom: 1rem;
+}
+
+
+
+.sitemap li,
+.resources li,
+.company li,
+.opportunities li {
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.f-link {
+    text-decoration: none;
+    color: white;
+    opacity: 50%;
+}
+
+.f-link:hover {
+    opacity: 90%;
+    text-decoration: underline;
+    transition: all 0.4s;
+}
